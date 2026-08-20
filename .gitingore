@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Временные копии твоих скриптов
+*копия*
+
+# Логи TensorBoard (их лучше не заливать, если они весят много МБ)
+pvz_tensorboard_logs/
