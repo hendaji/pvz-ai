@@ -49,19 +49,12 @@
 
 1. Клонируйте проект и установите зависимости: 
 
-bash
+pip install gymnasium stable-baselines3 tensorboard numpy pygame
 
-git clone https://github.com/ВАШ_НИК/ИМЯ_РЕПОЗИТОРИЯ.git
-pip install gymnasium stable-baselines3 tensorboard numpy
-
-Используйте код с осторожностью.
 2. Запустите ИИ-сервер: 
-
-bash
 
 python ai_network_server.py
 
-Используйте код с осторожностью.
 3. Запустите клиент игры (скрипт или pvz.bat). Сервер автоматически подхватит соединение по адресу 127.0.0.1:5005.
 
 *Для просмотра графиков обучения запустите:* tensorboard --logdir=./pvz_tensorboard_logs/
